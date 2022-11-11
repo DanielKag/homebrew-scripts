@@ -13,7 +13,7 @@ class Selek < Formula
 
   def install
     # Move everything under #{libexec}/
-    libexec.install Dir["*"]
+    libexec.install Dir["selek"]
 
     # Then write executables under #{bin}/
     bin.write_exec_script (libexec/"selek")
