@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Selek < Formula
   desc 'Kube pods with fzf'
-  homepage 'https://github.com/DanielKag/selek'
-  url 'https://github.com/DanielKag/scripts/archive/refs/tags/1.3.tar.gz'
-  sha256 '5410305e3266f396c3b03300aacc9be18ad8bf4bff127bf2e765fe4a0e4692ed'
+  homepage 'https://github.com/DanielKag/scripts'
+  url 'https://github.com/DanielKag/scripts/archive/refs/tags/1.4.tar.gz'
+  sha256 '120880b7fc0c583d682138619353f9be799c9dba8a0b45e14afcefbe013985b6'
   license 'MIT'
 
   # depends_on "cmake" => :build
