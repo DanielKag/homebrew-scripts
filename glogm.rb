@@ -13,7 +13,13 @@ class Glogm < Formula
   depends_on 'git-delta'
 
   def install
-    bin.install 'glogm'
+    # Move everything under #{libexec}/
+    libexec.install Dir["glogm"]
+
+    # Then write executables under #{bin}/
+    bin.write_exec_script (libexec/"glogm")
+
+    # bin.install 'selek'
   end
 
   test do
