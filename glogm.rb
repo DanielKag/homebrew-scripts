@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Glogm < Formula
   desc 'Git log with fzf'
-  homepage 'https://github.com/DanielKag/glogm'
-  url 'https://github.com/DanielKag/scripts/archive/refs/tags/1.2.tar.gz'
-  sha256 'f81a4e26ee306a966d49cb460e8ac9c0854c41964e4e06f0f0dab0d002ec59ac'
+  homepage 'https://github.com/DanielKag/scripts/'
+  url 'https://github.com/DanielKag/scripts/archive/refs/tags/glogm1.0.tar.gz'
+  sha256 '7ae389942594a542691c359d6b1af65d7d6e8fca8910fc53e01b921264a9ad5a'
   license 'MIT'
 
   # depends_on "cmake" => :build
