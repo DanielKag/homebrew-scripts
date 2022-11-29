@@ -4,8 +4,8 @@
 class Selek < Formula
   desc 'Kube pods with fzf'
   homepage 'https://github.com/DanielKag/scripts'
-  url 'https://github.com/DanielKag/scripts/archive/refs/tags/selek2.0.tar.gz'
-  sha256 '5c0e6930ce905c0d4bde82c401925884ac1f15d499859911987b7c96fc04d18e'
+  url 'https://github.com/DanielKag/scripts/archive/refs/tags/selek2.1.tar.gz'
+  sha256 '00ef9c30965136ccea05faa406c54a320ca8dd862bd10bd74337896482858381'
   license 'MIT'
 
   # depends_on "cmake" => :build
