@@ -4,8 +4,8 @@
 class Glogm < Formula
   desc 'Git log with fzf'
   homepage 'https://github.com/DanielKag/scripts/'
-  url 'https://github.com/DanielKag/scripts/archive/refs/tags/glogm1.4.tar.gz'
-  sha256 '5a579a6ff57712513ec5fb17e1abccb98ef4c19aba8ddea3aa162f991599ff6b'
+  url 'https://github.com/DanielKag/scripts/archive/refs/tags/glogm1.5.tar.gz'
+  sha256 'ea76ed228b44f71ab352e25c952fcfbb1c55f717decaaa379b13aeb70c4bd31f'
   license 'MIT'
 
   # depends_on "cmake" => :build
